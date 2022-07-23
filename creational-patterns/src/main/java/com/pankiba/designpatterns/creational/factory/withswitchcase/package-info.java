@@ -8,4 +8,4 @@
  * flexible and its violation of <strong> Open Close principle </strong>
  * 
  */
-package com.pankiba.designpatterns.creational.factory.bad;
+package com.pankiba.designpatterns.creational.factory.withswitchcase;

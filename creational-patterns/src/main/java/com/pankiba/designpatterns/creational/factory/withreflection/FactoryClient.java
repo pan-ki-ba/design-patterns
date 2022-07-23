@@ -1,10 +1,10 @@
-package com.pankiba.designpatterns.creational.factory.good;
+package com.pankiba.designpatterns.creational.factory.withreflection;
 
-public class FactoryDemoClient {
+public class FactoryClient {
 	
 	VehicleFactory vehicleFactory = new VehicleFactory();
 	
-	public FactoryDemoClient(){
+	public FactoryClient(){
 		vehicleFactory.registerVehicle(1, Car.class);
 		vehicleFactory.registerVehicle(2, MotorCycle.class);
 	}
@@ -17,7 +17,7 @@ public class FactoryDemoClient {
 	
 	public static void main(String[] args) throws InstantiationException, IllegalAccessException {
 		
-		FactoryDemoClient factoryDemoClient = new FactoryDemoClient();
+		FactoryClient factoryDemoClient = new FactoryClient();
 		factoryDemoClient.buildVehicle(1);
 		factoryDemoClient.buildVehicle(2);
 

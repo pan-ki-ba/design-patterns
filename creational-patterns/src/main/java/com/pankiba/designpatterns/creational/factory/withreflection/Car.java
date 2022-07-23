@@ -1,4 +1,4 @@
-package com.pankiba.designpatterns.creational.factory.good;
+package com.pankiba.designpatterns.creational.factory.withreflection;
 
 public class Car implements Vehicle {
 

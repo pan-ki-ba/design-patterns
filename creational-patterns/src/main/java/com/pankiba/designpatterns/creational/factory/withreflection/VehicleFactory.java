@@ -1,4 +1,4 @@
-package com.pankiba.designpatterns.creational.factory.good;
+package com.pankiba.designpatterns.creational.factory.withreflection;
 
 import java.util.HashMap;
 import java.util.Map;

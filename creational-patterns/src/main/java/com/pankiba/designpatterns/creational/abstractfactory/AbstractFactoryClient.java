@@ -1,6 +1,6 @@
 package com.pankiba.designpatterns.creational.abstractfactory;
 
-public class AbstractFactoryDemoClient {
+public class AbstractFactoryClient {
 
 	public void buildVehicle(int selectedVehicleId, int brandId) {
 		
@@ -10,7 +10,7 @@ public class AbstractFactoryDemoClient {
 
 	public static void main(String[] args) {
 
-		AbstractFactoryDemoClient abstractFactoryDemoClient = new AbstractFactoryDemoClient();
+		AbstractFactoryClient abstractFactoryDemoClient = new AbstractFactoryClient();
 
 		abstractFactoryDemoClient.buildVehicle(1, 1);
 		abstractFactoryDemoClient.buildVehicle(1, 2);

@@ -1,4 +1,4 @@
-package com.pankiba.designpatterns.creational.factory.bad;
+package com.pankiba.designpatterns.creational.factory.withswitchcase;
 
 public class Car implements Vehicle {
 

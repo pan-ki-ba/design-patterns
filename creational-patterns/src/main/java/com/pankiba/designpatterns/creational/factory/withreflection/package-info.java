@@ -8,4 +8,4 @@
  * @author pankiba
  * 
  */
-package com.pankiba.designpatterns.creational.factory.good;
+package com.pankiba.designpatterns.creational.factory.withreflection;

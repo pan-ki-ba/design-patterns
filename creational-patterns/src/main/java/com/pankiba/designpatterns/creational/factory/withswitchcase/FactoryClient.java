@@ -1,6 +1,6 @@
-package com.pankiba.designpatterns.creational.factory.bad;
+package com.pankiba.designpatterns.creational.factory.withswitchcase;
 
-public class FactoryDemoClient {
+public class FactoryClient {
 	
 	VehicleFactory vehicleFactory = new VehicleFactory();
 	
@@ -11,7 +11,7 @@ public class FactoryDemoClient {
 	
 	public static void main(String[] args) {
 		
-		FactoryDemoClient factoryDemoClient = new FactoryDemoClient();
+		FactoryClient factoryDemoClient = new FactoryClient();
 		factoryDemoClient.buildVehicle(1);
 		factoryDemoClient.buildVehicle(2);
 
