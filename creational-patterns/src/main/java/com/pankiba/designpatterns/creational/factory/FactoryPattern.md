@@ -12,4 +12,4 @@
       - When we have a superclass with multiple sub-classes and based on input, we need to return one of the sub-class.
       - When there is a need to decouple a client from a particular product that it uses. Factory Pattern relieves a client of responsibility for creating and configuring instances of a product.
   - Where it used
-      - 
+      - ValueOf method in Java Wrapper class and String class
