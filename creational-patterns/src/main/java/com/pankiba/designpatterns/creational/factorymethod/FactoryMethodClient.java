@@ -1,7 +1,7 @@
 package com.pankiba.designpatterns.creational.factorymethod;
 
 
-public class FactoryDemoClient {
+public class FactoryMethodClient {
 
 	public void buildVehicle(VehicleFactory vehicleFactory) {
 		vehicleFactory.startBuildProcess();
@@ -10,10 +10,10 @@ public class FactoryDemoClient {
 	public static void main(String[] args) throws InstantiationException,
 			IllegalAccessException {
 		
-		FactoryDemoClient factoryDemoClient = new FactoryDemoClient();
+		FactoryMethodClient factoryMethodClient = new FactoryMethodClient();
 		
-		factoryDemoClient.buildVehicle(new CarFactory());
-		factoryDemoClient.buildVehicle(new MotorCycleFactory());
+		factoryMethodClient.buildVehicle(new CarFactory());
+		factoryMethodClient.buildVehicle(new MotorCycleFactory());
 		
 	}
 
