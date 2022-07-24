@@ -1,4 +1,5 @@
 #### Abstract Factory Pattern
+
   - Details
       - Abstract Factory pattern adds another layer of abstraction for Factory pattern. If we compare Abstract Factory with
         Factory, it is pretty obvious that a new layer of abstraction is added. Abstract Factory is a super-factory which

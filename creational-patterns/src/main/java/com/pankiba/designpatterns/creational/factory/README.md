@@ -1,4 +1,5 @@
 #### Factory Pattern
+
   - Details
       - Encapsulates the details of object creation in a single class which is known as a "Factory" class.
       - Creates objects without exposing the instantiation logic to the client.
