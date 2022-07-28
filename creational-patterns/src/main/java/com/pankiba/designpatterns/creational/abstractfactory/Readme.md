@@ -16,4 +16,4 @@
   - When to use
       - The problems solved by abstract factory are similar to those solved by the factory method pattern, but with greater abstraction in the types of objects that need to be created. Therefore, in the case of abstract factory, it is required to work with several families of products related to each other rather than in a set of products.
   - Where it used
-      - Spring Framwork bean creation
+      - Spring Framework bean creation
